@@ -52,6 +52,30 @@ pip install -e .
 
 ## Dataset
 
+Experiments in the paper are conducted on two public water-surface floating debris datasets:
+
+1. **Flow-Img**
+
+   Flow-Img is the vision-based subset of the FloW dataset for floating waste detection in inland waters. It can be accessed from the official ORCA-Uboat dataset page:
+
+   https://orca-tech.cn/datasets/FloW/FloW-Img
+
+   The dataset repository and paper information are also available at:
+
+   https://github.com/ORCA-Uboat/FloW-Dataset
+
+2. **IWHR_AI_Lable_Floater_V1**
+
+   IWHR_AI_Lable_Floater_V1 is a public floater detection dataset collected from real inland-water scenes. It can be downloaded from Figshare:
+
+   https://doi.org/10.6084/m9.figshare.27376851.v1
+
+   The corresponding data descriptor paper is available at:
+
+   https://www.nature.com/articles/s41597-025-04594-9
+
+The datasets are not included in this repository. Please download them from the official sources above and convert or arrange them in YOLO format before training.
+
 Prepare your dataset in YOLO format:
 
 ```text
