@@ -1,0 +1,10 @@
+# Dataset template for DGF-YOLO.
+# Change `path` to your dataset root before training.
+path: ../datasets/DGF-YOLO
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: object

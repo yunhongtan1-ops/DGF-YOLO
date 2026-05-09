@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+ultralytics.egg-info/
+*.whl
+
+# Environments
+.env
+.venv/
+venv/
+env/
+conda-env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datasets and generated experiment outputs
+/datasets/
+runs/
+logs/
+result/
+wandb/
+mlruns/
+
+# Model weights and exported models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.pb
+*.mlmodel
+*.safetensors
+
+# Local temporary files
+tmp/
+temp/
+*.log
+
+# Legacy local experiment entry points
+train1.py
+val1.py
+
+# Upstream examples, docs, tests, and local utilities not needed for the first release
+/examples/
+/docker/
+/tests/
+/assets/
+/mkdocs.yml
+/app.py
+/heatmap.py
+/heatmap_improved.py
+
+# Keep only final DGF-YOLO additions from the experimental module folder
+/ultralytics/nn/AddModules/*.py
+!/ultralytics/nn/AddModules/__init__.py
+!/ultralytics/nn/AddModules/FBRT_YOLO.py
+!/ultralytics/nn/AddModules/WSOM.py
+
+# Keep only the final DGF-YOLO model config and the original YOLOv12 baseline config
+/ultralytics/cfg/models/**/*.yaml
+!/ultralytics/cfg/models/v12/yolov12.yaml
+!/ultralytics/cfg/models/v12/yolov12-GCF-SSFM-DGRM.yaml
+
+# Keep only the dataset template for this project
+/ultralytics/cfg/datasets/*.yaml
+!/ultralytics/cfg/datasets/dgf_yolo.yaml
+
+# Built-in demo assets are not required for this project release
+/ultralytics/assets/
