@@ -73,8 +73,8 @@ val1.py
 # Keep only final DGF-YOLO additions from the experimental module folder
 /ultralytics/nn/AddModules/*.py
 !/ultralytics/nn/AddModules/__init__.py
-!/ultralytics/nn/AddModules/FBRT_YOLO.py
-!/ultralytics/nn/AddModules/WSOM.py
+!/ultralytics/nn/AddModules/GCF.py
+!/ultralytics/nn/AddModules/SSFM_DGRM.py
 
 # Keep only the final DGF-YOLO model config and the original YOLOv12 baseline config
 /ultralytics/cfg/models/**/*.yaml

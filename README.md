@@ -33,8 +33,8 @@ DGF-YOLO/
 |   |       `-- yolov12-GCF-SSFM-DGRM.yaml
 |   `-- nn/
 |       `-- AddModules/
-|           |-- FBRT_YOLO.py
-|           `-- WSOM.py
+|           |-- GCF.py
+|           `-- SSFM_DGRM.py
 ```
 
 ## Installation
