@@ -15,7 +15,6 @@ ultralytics/cfg/models/v12/yolov12-GCF-SSFM-DGRM.yaml
 - Uses `GCF` blocks for feature extraction and global-context feature modeling.
 - Uses `SSFM` for scale-sequence feature fusion across P3, P4, and P5 features.
 - Uses `DGRM` for detail-guided refinement before detection.
-- Keeps the training, validation, and prediction workflow compatible with the Ultralytics YOLO API.
 
 ## Project Structure
 
